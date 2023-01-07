@@ -7,7 +7,7 @@
 }
 .header{
     background-image: url("images/banner/banner2.png");
-    width:1600px;
+    width:100%;
     height:809px;
   
 }
@@ -66,7 +66,7 @@
     width:1072px;
     height:722px;
     display: flex;
-    margin-left:230px;
+    margin-left:200px;
     margin-right:230px;
     margin-top: 40px;
 }
@@ -106,7 +106,7 @@
 
 
 .second-section{
-    margin-left: 230px;
+    margin-left: 150px;
     margin-right: 229px;
     height:230px;
     width:1140px;
@@ -164,23 +164,48 @@ color: #737272;
 .third-section{
     height:280px;
     width:1060px;
-    margin-left: 285px;
+    margin-left: 220px;
     margin-right: 210px;
-    margin-top:80px;
+    margin-top:130px;
+    margin-bottom:130px;
     background-image: url("images/watch.png");
 }
 
 #third-card{
     width: 460px;
     height:182px;
-    margin-top:60px;
+    margin-top:30px;
     margin-left:64px;
     display: inline-block;
 
 }
 
 .text-color{
-    color: #FFFFFF;;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #FFFFFF;
+}
+
+#third-btn{
+    width: 160px;
+    height: 64px;
+    left: 294px;
+    top: 2399.26px;
+    background: #FFFFFF;
+    border-radius: 5px;
+}
+
+.third-section input[type="button"]{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #F15B22;
 }
 
 
@@ -188,7 +213,7 @@ color: #737272;
 /* footer section start from here */
 
 footer{
-    width:1600px;
+    width:100%;
     height:577px;
     background-color:#151414;
     margin-top:80px;
