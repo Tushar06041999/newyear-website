@@ -168,10 +168,12 @@ color: #737272;
     margin-right: 210px;
     margin-top:130px;
     margin-bottom:130px;
-    background-image: url("images/watch.png");
-    background-image: linear-gradient(
-        hsla(24, 100%, 48%, 0.868),
-      ); 
+    display:flex;
+    background-image: radial-gradient(
+              rgba(216, 60, 8, 0.756),
+              rgba(255, 221, 0, 0.589)), url(
+'images/watch.png');
+           
     
 }
 
