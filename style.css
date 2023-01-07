@@ -169,6 +169,10 @@ color: #737272;
     margin-top:130px;
     margin-bottom:130px;
     background-image: url("images/watch.png");
+    background-image: linear-gradient(
+        hsla(24, 100%, 48%, 0.868),
+      ); 
+    
 }
 
 #third-card{
@@ -209,6 +213,66 @@ color: #737272;
 }
 
 
+/* card section start from here */
+
+
+.top-card-heading{
+    margin-top: 100px;
+
+}
+.top-card-heading h1{
+    text-align: center;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+}
+
+.card-section{
+    display:flex;
+    justify-content:space-evenly;
+    margin-top:80px;
+    /* margin-left: 220px;
+    margin-right: 210px; */
+
+}
+
+.card-design{
+    background-color: rgb(247, 238, 217);
+    height:340px;
+    width:300px;
+    margin-left:45px;
+    border-radius: 16px;
+}
+
+.card-design p{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+}
+
+.card-design img{
+    margin-left:120px;
+    margin-top: 10px;
+}
+
+.center{
+    text-align: center;
+}
+
+.button{
+    display: inline-block;
+    margin-left: 80px;
+    background-color: #f15b22;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+}
+
 
 /* footer section start from here */
 
@@ -216,7 +280,7 @@ footer{
     width:100%;
     height:577px;
     background-color:#151414;
-    margin-top:80px;
+    margin-top:40px;
     display: flex;
 }
 
@@ -281,11 +345,13 @@ input[type="text"]{
     border-left: 1px solid #ffffff;
     border-right: 1px solid #ffffff;
     outline: none;
+    color:#ffffff;
 }
 ::placeholder{
     color:#ffffff;
     padding-left:15px;
 }
+
 
 #subscribe-btn{
     
@@ -301,4 +367,10 @@ font-style: normal;
 font-weight: 600;
 font-size: 20px;
 line-height: 24px;
+}
+.policy{
+    text-align: center;
+}
+.policy p{
+  color:#0a0a0a;
 }
